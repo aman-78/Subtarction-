@@ -1,11 +1,11 @@
 #include<stio.h>
 int main(){
-	int first,second,sub;
+	int a,b,sub;
 	printf("Enter First Number:");
-	scanf("%d",&first);
+	scanf("%d",&a);
 	printf("Enter Second Number:");
-	scanf("%d",&second);
-	sub=first-second;
+	scanf("%d",&b);
+	sub=a-b;
 	printf("Subtraction of two number is:%d",sub);
 	return 0;
 }
